@@ -4,7 +4,7 @@ INSERT INTO  [dbo].[Student](STName,Number,Birthday,DepID,NatID,CollgID,RoomID)
 VALUES ('Saja','227','10-20-2000',7,2,3,8);
 Select *from [dbo].[Student];
 update [dbo].[Student]
-Set Name='safaa'
+Set STName='safaa'
 where ID=6;
 
 SELECT Student.Name,Student.Number,Departmenet.DepName,Collage.Name
